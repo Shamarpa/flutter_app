@@ -8,6 +8,7 @@ import 'module8/module_8_class1.dart';
 import 'module8/module_8_class2.dart';
 import 'module8/practice.dart';
 import 'module10/assignment.dart';
+import 'module10/exam.dart';
 class MyApp extends StatelessWidget{
 
   MyApp({super.key});
@@ -16,7 +17,7 @@ class MyApp extends StatelessWidget{
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Batch 11 flutter',
-      home: Assignment(),
+      home: Exam(),
 
     );
   }
